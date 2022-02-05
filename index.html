@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="style.css">
+	<title>Number Tricks</title>
+
+	<script>
+
+		var entry;
+		entry = prompt("Enter a whole number");			
+		entry = parseInt(entry);					
+		var startingNumber = entry;
+								
+
+		newNumber = startingNumber + 9;
+		thirdNumber = newNumber*2;
+		fourthNumber = thirdNumber-4;
+		fifthNumber = fourthNumber/2;
+		sixthNumber = fifthNumber-startingNumber;
+		finalAnswer = sixthNumber;
+
+	</script>
+
+
+</head>
+
+<body class="body">
+		<script>
+			document.write("<h1>Number Tricks</h1>");
+			document.write("<ul> <li>I added 9 to " + startingNumber + ". " +
+				"The new number is " + newNumber + ". <br> </li>" +
+				"<li>I multipled " + newNumber + " by 2. " + "The new number is " + thirdNumber + ".<br> </li>" +
+
+				"<li>I subtracted 4 from " + thirdNumber + ". " + "The new number is " + fourthNumber +". <br> </li>" +
+
+				"<li>I divided " + fourthNumber + " by two. " + " The new number is " + fifthNumber + ". <br></li>" +
+
+				"<li>I subtracted your original number of " + startingNumber + " from " + fifthNumber + ".<br> " + "<br></li></ul>" +
+
+				"<b> Your final number is " + sixthNumber + "! </b> <br><br>");
+
+			"<br><br>" ;
+
+
+			alert("Final number is " + sixthNumber + "!");
+
+		</script>
+		<h2>Thanks for playing. <a href="javascript:location.reload(true)">Play again?</a></h2>
+
+</body>
+</html>
